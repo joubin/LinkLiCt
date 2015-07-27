@@ -1,5 +1,5 @@
-# LinkLiCt
+#LinkLict is a C implementation of Javas ArrayList.
 
-This project was created to attempt to recreate the linklist offered in Java.
+No; not the whole thing. I really didnt want to class-out plain c and create a fully working ArrayList. 
 
-I will not attempt to do some of the hashing that has been done as I want to stay away from classing out this project. 
+I have added bits and peaces to this to make it work for my projects... Feel free to change/modify/delete/use/never-user this project
