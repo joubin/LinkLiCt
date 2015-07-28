@@ -10,10 +10,7 @@
 
 Node *root, *curr;
 
-
-
 int AL_appened(void* str) {
-    
     Node *newNode;
     newNode = (Node *)malloc(sizeof (Node));
     curr->next = newNode;
@@ -24,7 +21,6 @@ int AL_appened(void* str) {
     newNode->next = NULL;
     curr = newNode;
     return 0;
-    
 }
 
 
@@ -139,7 +135,6 @@ void AL_next(struct Iterator *it){
 
 int AL_hasNext(struct Iterator it){
     return (it.current.next != NULL) ? 1 : 0;
-
 }
 
 
